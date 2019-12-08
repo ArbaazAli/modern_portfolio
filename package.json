@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio",
   "main": "index.js",
-  "homepage" : "https://arbaaz_ali.github.io/modern_portfolio",
+  "homepage": "https://arbaaz_ali.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w SCSS/ -o  dist/css/ --recursive",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Arbaaz Ali",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"
   }
 }
